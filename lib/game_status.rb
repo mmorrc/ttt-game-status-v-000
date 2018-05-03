@@ -42,6 +42,6 @@ end
 
 def winner(board)
   win_combination = won?(board) #=> example: [0,4,8]
-  winning_location = win_combination[0]
-  board[winning_location]
+  winning_location = win_combination[0] #=> 0
+  board[winning_location] #=> "O"
 end
