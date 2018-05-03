@@ -20,9 +20,9 @@ def won?(board)
     location1 = win_combination[0]
     location2 = win_combination[1]
     location3 = win_combination[2]
-    
-    board[location1] == board[location2] && 
-    board[location2] == board[location3] && 
+
+    board[location1] == board[location2] &&
+    board[location2] == board[location3] &&
     board[location1] != " "
 #make sure any one of them is not empty
   end
@@ -43,5 +43,5 @@ end
 def winner(board)
   won?(board) #=> example: [0,4,8]
   location1
-  board["X" or "O"]
+  board[0]
 end
