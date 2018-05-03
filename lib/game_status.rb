@@ -39,5 +39,6 @@ end
 
 def winner(board)
   won?(board) #=> example: [0,4,8]
+  location1
   board["X" or "O"]
 end
