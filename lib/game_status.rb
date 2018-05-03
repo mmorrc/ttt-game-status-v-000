@@ -20,7 +20,7 @@ def won?(board)
     location1 = win_combination[0]
     location2 = win_combination[1]
     location3 = win_combination[2]
-  #puts "This board combo is #{board_location1} and #{board_location2} and board_location3"
-    board[location1] == board[location2] && board[location2] == board[location3] && board[0] != " "
+    board[location1] == board[location2] && board[location2] == board[location3] && board[location1] != " "
+#make sure any one of them is not empty
   end
 end
