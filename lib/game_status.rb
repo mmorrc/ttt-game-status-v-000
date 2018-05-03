@@ -21,6 +21,6 @@ def won?(board)
     board_location2 = win_combination[1]
     board_location3 = win_combination[2]
   puts "This board combo is #{board_location1} and #{board_location2} and board_location3"
-    board[0] == board[1] && board[1] == board[2] && board[0] != " "
+    #board[0] == board[1] && board[1] == board[2] && board[0] != " "
   end
 end
