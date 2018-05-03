@@ -24,3 +24,7 @@ def won?(board)
 #make sure any one of them is not empty
   end
 end
+
+def full?(board)
+
+end
