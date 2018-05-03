@@ -38,5 +38,6 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  won?(board) #=> example: [0,4,8]
+  board["X" or "O"]
 end
